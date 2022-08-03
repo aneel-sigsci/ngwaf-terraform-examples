@@ -8,4 +8,4 @@ As well as the known malicious IP's from SANS, Tor, and SigSci-IP.
 
 The rule should look like this:
 
-![Screen Shot of Rule](https://user-images.githubusercontent.com/45185884/182689862-a6669efd-c3e8-4a89-bd41-191a9c406cd5.png)
+![Screen Shot](https://user-images.githubusercontent.com/45185884/182690226-6d2ce569-f6c3-4483-8e8a-6fbb1a31a842.png)
