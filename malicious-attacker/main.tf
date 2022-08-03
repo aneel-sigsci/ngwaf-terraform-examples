@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "sigsci" {
-    corp = "[corp-shortname]"       // Required. may also provide via env variable SIGSCI_CORP
+  //  corp = "[corp-shortname]"       // Required. may also provide via env variable SIGSCI_CORP
   //  email = ""      // Required. may also provide via env variable SIGSCI_EMAIL
   //  auth_token = "" //may also provide via env variable SIGSCI_TOKEN
 }
