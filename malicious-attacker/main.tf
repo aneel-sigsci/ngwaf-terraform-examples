@@ -8,8 +8,8 @@ terraform {
 
 provider "sigsci" {
   //  corp = "[corp-shortname]"       // Required. may also provide via env variable SIGSCI_CORP
-  //  email = ""      // Required. may also provide via env variable SIGSCI_EMAIL
-  //  auth_token = "" //may also provide via env variable SIGSCI_TOKEN
+  //  email = "[e-mail used for login]"      // Required. may also provide via env variable SIGSCI_EMAIL
+  //  auth_token = "[api token]" //may also provide via env variable SIGSCI_TOKEN
 }
 
 resource "sigsci_site_rule" "test" {
