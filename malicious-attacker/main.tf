@@ -15,7 +15,7 @@ provider "sigsci" {
 resource "sigsci_site_rule" "test" {
   site_short_name = "test"
   type            = "request"
-  group_operator  = "any"
+  group_operator  = "all"
   enabled         = true
   reason          = "Blocking attacks from known Malicious IPs"
   expiration      = ""
