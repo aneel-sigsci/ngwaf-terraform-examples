@@ -1,6 +1,6 @@
 # Malicious Attacker
 
-This Terraform file will build a rule that identifies attack requests from known malicious IP's.
+This Terraform file will build a signal and a request rule that identifies attack requests from known malicious IP's.
 
 The default attack signals as defined as defined here: https://docs.fastly.com/signalsciences/faq/system-tags/#attacks.
 
