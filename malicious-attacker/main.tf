@@ -7,14 +7,20 @@ terraform {
 }
 
 provider "sigsci" {
-  //  corp = "[corp-shortname]"       // Required. may also provide via env variable SIGSCI_CORP
-  //  email = "[e-mail used for login]"      // Required. may also provide via env variable SIGSCI_EMAIL
-  //  auth_token = "[api token]" //may also provide via env variable SIGSCI_TOKEN
+  //  corp = ""       // Required. may also provide via env variable SIGSCI_CORP
+  //  email = ""      // Required. may also provide via env variable SIGSCI_EMAIL
+  //  auth_token = "" //may also provide via env variable SIGSCI_TOKEN
 }
 
-resource "sigsci_site_rule" "test" {
-  site_short_name = "test"
+resource "sigsci_corp_signal_tag" "malicious-attacker" {
+  short_name  = "malicious-attacker"
+  description = "Identification of attacks from malicious IPs"
+}
+
+resource "sigsci_corp_rule" "malicious-attacker" {
+  site_short_names = []
   type            = "request"
+  corp_scope      = "global"
   group_operator  = "all"
   enabled         = true
   reason          = "Blocking attacks from known Malicious IPs"
