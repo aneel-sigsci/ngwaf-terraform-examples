@@ -1,3 +1,3 @@
-# ngwaf-terraform-examples
+# Recommended Configurations using Terraform
 
-Here are some examples of using Terraform with NGWAF (Powered by Signal Sciences)
+This repository contains examples of configuring the NGWAF (Powered by Signal Sciences) using Terraform.
