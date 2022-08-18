@@ -97,6 +97,9 @@ resource "sigsci_corp_rule" "malicious-attacker" {
 
   actions {
     type = "block"
+  }
+    actions {
+    type = "addSignal"
     signal = "corp.malicious-attacker" 
   }
 }
