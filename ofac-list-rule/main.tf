@@ -56,6 +56,10 @@ resource "sigsci_corp_rule" "ofac" {
 
   actions {
     type = "block"
+  }
+
+  actions {
+    type = "addSignal"
     signal = "corp.ofac" 
   }
 }

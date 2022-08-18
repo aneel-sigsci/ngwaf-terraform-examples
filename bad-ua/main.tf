@@ -48,6 +48,10 @@ resource "sigsci_corp_rule" "bad-ua" {
 
   actions {
     type = "block"
+  }
+
+  actions {
+    type = "addSignal"
     signal = "corp.bad-ua" 
   }
 }
