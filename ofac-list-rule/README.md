@@ -4,7 +4,7 @@ This Terraform file will build a list and a request rule that identifies request
 
 A list will be created with countries on the OFAC list:
 
-![ofac_list](https://user-images.githubusercontent.com/45185884/185006378-1d1bba95-f25e-4b8b-8f0e-55b7ec893a5a.png)
+![ofac_country_list](https://user-images.githubusercontent.com/45185884/188759538-c9aa91bf-e8f9-43f3-a8bc-459ed4b4493d.png)
 
 Then a request rule will be created using the list to block requests from countries on the above list:
 
