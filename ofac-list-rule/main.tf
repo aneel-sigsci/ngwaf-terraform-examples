@@ -26,7 +26,6 @@ resource "sigsci_corp_list" "ofac" {
         "SY",
         "SD",
         "KP",
-        "UA",
         "BY",
         "CI",
         "CU",
